@@ -1,1 +1,0 @@
-{{ dbt_utils.test_equal_rowcount(compare_model=ref('stg_backend__account_creation'), model=get_where_subquery(ref('dim_accounts'))) }}

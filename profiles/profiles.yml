@@ -1,4 +1,4 @@
-bank_dbt:
+bank_data_models:
   target: dev
   outputs:
     dev:

@@ -1,1 +1,0 @@
-{{ test_relationships(column_name="account_id", field="account_id", model=get_where_subquery(ref('fct_daily_accounts')), to=ref('dim_accounts')) }}

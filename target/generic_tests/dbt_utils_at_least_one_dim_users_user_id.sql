@@ -1,1 +1,0 @@
-{{ dbt_utils.test_at_least_one(column_name="user_id", model=get_where_subquery(ref('dim_users'))) }}

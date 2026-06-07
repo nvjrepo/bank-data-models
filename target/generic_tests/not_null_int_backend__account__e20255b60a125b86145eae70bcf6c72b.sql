@@ -1,1 +1,0 @@
-{{ test_not_null(column_name="account_closed_id", model=get_where_subquery(ref('int_backend__account_closed__deduplicated'))) }}

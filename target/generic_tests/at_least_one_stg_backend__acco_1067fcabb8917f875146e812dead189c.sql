@@ -1,1 +1,0 @@
-{{ dbt_utils.test_at_least_one(column_name="account_closed_id", model=get_where_subquery(ref('stg_backend__account_closure'))) }}

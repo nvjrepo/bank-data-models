@@ -1,2 +1,0 @@
-{{ config({"where":"last_transaction_date is not null and last_closed_at is not null"}) }}
-{{ dbt_utils.test_expression_is_true(expression="cast(last_closed_at as date) >= last_transaction_date", model=get_where_subquery(ref('dim_accounts'))) }}
