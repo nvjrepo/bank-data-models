@@ -1,0 +1,1 @@
+{{ dbt_utils.test_unique_combination_of_columns(combination_of_columns=["account_id_hashed","date"], model=get_where_subquery(source('backend', 'account_transactions'))) }}

@@ -1,0 +1,1 @@
+{{ test_relationships(column_name="account_id", field="account_id", model=get_where_subquery(ref('stg_backend__account_transactions')), to=ref('stg_backend__account_creation')) }}

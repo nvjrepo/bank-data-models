@@ -1,0 +1,1 @@
+{{ dbt_utils.test_at_least_one(column_name="event_id", model=get_where_subquery(ref('fct_daily_accounts'))) }}

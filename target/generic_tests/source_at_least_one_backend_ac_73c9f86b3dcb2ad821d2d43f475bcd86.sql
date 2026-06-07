@@ -1,0 +1,1 @@
+{{ dbt_utils.test_at_least_one(column_name="account_id_hashed", model=get_where_subquery(source('backend', 'account_created'))) }}

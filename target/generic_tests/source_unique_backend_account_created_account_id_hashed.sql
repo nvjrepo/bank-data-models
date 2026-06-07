@@ -1,0 +1,1 @@
+{{ test_unique(column_name="account_id_hashed", model=get_where_subquery(source('backend', 'account_created'))) }}
